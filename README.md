@@ -7,7 +7,7 @@ Specifically, the data regarding the performance of each individual athlete seas
 The aim of the work was to identify **supervised learning models** capable of predicting future events using information on past events.
 
 <p align="center">
-  <img src="/Readme_Documents/DatasetFragment.png" alt="Dataset Fragment"/>
+  <img src="/Readme_Documents/DatasetFragment.png" alt="Dataset Fragment" width="80%"/>
 </p>
 
 > Fragment of the dataset used
@@ -91,8 +91,10 @@ $ python3 NoLinearSVC.py
 $ python3 NoLinearSVC_with_Probability.py
 ```
 
+#### Example of Output
+
 <p align="center">
-  <img src="/Readme_Documents/OutputSVC.png" alt="Output SVC Example"/>
+  <img src="/Readme_Documents/OutputSVC.png" alt="Output SVC Example" width="80%"/>
 </p>
 
 > Example of output for the 2008 test with this implementation
