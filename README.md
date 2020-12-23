@@ -102,7 +102,7 @@ $ python3 NoLinearSVC_with_Probability.py
 ## Comparison of the Results
 The comparison of the results obtained with the various models was made in terms of the F1_score metric. Below is the table summarizing the results obtained:
 
-Model | F1_score
+MODEL | F1_score
 ------------- | -------------
 **Logistic Regression**  | 75,9%
 **SVC with Linear Kernel**  | 73,3%
