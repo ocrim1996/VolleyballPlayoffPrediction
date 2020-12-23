@@ -42,6 +42,11 @@ For this model, various parameters are available, the ones we have focused on mo
 
 - the other parameters have their default value
 
+#### *To Run this Model*
+```sh
+$ python3 LogisticRegression.py
+```
+
 ### SVC with Linear Kernel
 For this model, various parameters are available, the ones we have focused on most are:
 - **C** is the penalty parameter of the error term. In our case it takes value
@@ -52,6 +57,11 @@ For this model, various parameters are available, the ones we have focused on mo
 - **max_iter** indicates the maximum number of iterations for the solver to converge. In our case it was assigned a value of 20000.
 
 - the other parameters have their default value
+
+#### *To Run this Model*
+```sh
+$ python3 LinearSVC.py
+```
 
 ### SVC with RBF Kernel
 For this model, various parameters are available, the ones we have focused on most are:
@@ -68,5 +78,18 @@ For this model, various parameters are available, the ones we have focused on mo
 </p>
 
 - the other parameters have their default value
+
+#### *To Run this Model*
+Four different implementations of this model have been created (for more information see the `report.pdf`)
+
+- To run the **third implementation**
+```sh
+$ python3 NoLinearSVC.py
+```
+- To run the **fourth implementation**
+```sh
+$ python3 NoLinearSVC_with_Probability.py
+```
+
 
 
