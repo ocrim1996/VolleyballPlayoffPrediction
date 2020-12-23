@@ -43,8 +43,10 @@ For this model, various parameters are available, the ones we have focused on mo
 ### SVC with Linear Kernel
 For this model, various parameters are available, the ones we have focused on most are:
 - **C** is the penalty parameter of the error term. In our case it takes value
+<p align="center">
 <img src="https://latex.codecogs.com/gif.latex?C&space;\in&space;[2^{-8},&space;2^{-7},&space;...,&space;2^{7}]" title="C \in [2^{-8}, 2^{-7}, ..., 2^{7}]" />
-
+</p>
+  
 - **max_iter** indicates the maximum number of iterations for the solver to converge. In our case it was assigned a value of 20000.
 
 - the other parameters have their default value
@@ -52,12 +54,16 @@ For this model, various parameters are available, the ones we have focused on mo
 ### SVC with RBF Kernel
 For this model, various parameters are available, the ones we have focused on most are:
 - **C** is the penalty parameter of the error term. In our case it takes value
+<p align="center">
 <img src="https://latex.codecogs.com/gif.latex?C&space;\in&space;[2^{-8},&space;2^{-7},&space;...,&space;2^{7}]" title="C \in [2^{-8}, 2^{-7}, ..., 2^{7}]" />
+</p>
 
 - **kernel** specifies the type of kernel to be used in the algorithm. It can be "linear", "poly", "rbf" and "sigmoid". In our case it has value "rbf" or Gaussian kernel.
 
 - **gamma γ** is a kernel coefficient for "rbf" types. Possible values for this variable are
+<p align="center">
 <img src="https://latex.codecogs.com/gif.latex?\gamma&space;\in&space;\{&space;\gamma_{0}&space;*2^{i}&space;|&space;i&space;=&space;-8,&space;...,&space;7&space;\}&space;\quad&space;with&space;\quad&space;\gamma_{0}&space;=&space;\frac{1}{numeroFeatures}&space;=&space;\frac{1}{20}" title="\gamma \in \{ \gamma_{0} *2^{i} | i = -8, ..., 7 \} \quad with \quad \gamma_{0} = \frac{1}{numeroFeatures} = \frac{1}{20}" />
+</p>
 
 - the other parameters have their default value
 
