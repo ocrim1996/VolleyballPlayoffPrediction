@@ -32,7 +32,9 @@ In particular, for the SVC model with RBF kernel four different implementations 
 ### Logistic Regression
 For this model, various parameters are available, the ones we have focused on most are:
 - **C** is the penalty parameter of the error term. In our case it takes value
+<p align="center">
 <img src="https://latex.codecogs.com/gif.latex?C&space;\in&space;[2^{-8},&space;2^{-7},&space;...,&space;2^{7}]" title="C \in [2^{-8}, 2^{-7}, ..., 2^{7}]" />
+</p>
 
 - **solver** indicates the algorithm to be used in the optimization problem. In our case it is "lbfgs".
 
