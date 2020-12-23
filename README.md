@@ -111,4 +111,16 @@ Model | F1_score
 **SVC with RBF Kernel third implementation**  | 81,4%
 **SVC with RBF Kernel fourth implementation**  | 81%
 
+## Libraries Needed
+To run the code you need the following libraries:
+
+Library | Version
+------------- | -------------
+**numpy**  | >= 1.19.4
+**pandas** | >= 1.1.5
+**scikit-learn**  | >= 0.24.0
+**scipy**  | >= 1.3.1
+**sklearn** | >= 0.0
+
+The code has been tested with MacOS Catalina (version 10.15.2).
 
