@@ -1,4 +1,10 @@
 # Machine learning methods for predictive analysis of team performance in sports
+[![MIT License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/mit-license.php)
+[![Platform](https://img.shields.io/badge/MacOS-Catalina%2010.15.2-orange)](https://www.apple.com/it/newsroom/2019/10/macos-catalina-is-available-today/)
+[![Library](https://img.shields.io/badge/numpy-1.19.4-informational)](https://pypi.org/project/numpy/)
+[![Library](https://img.shields.io/badge/pandas-1.1.5-informational)](https://pypi.org/project/pandas/1.1.5/)
+[![Library](https://img.shields.io/badge/scikit--learn-0.24.0-informational)](https://pypi.org/project/scikit-learn/)
+[![Library](https://img.shields.io/badge/scipy-1.3.1-informational)](https://pypi.org/project/scipy/1.3.1/)
 
 ## Introduction
 The objective of this study is to use data relating to the past sports performance of individual players in the Volleyball Serie A, to predict at the beginning of the championship which teams will access the final phase of the championship, the Playoffs, following the Regular Season phase. .
@@ -120,7 +126,6 @@ Library | Version
 **pandas** | >= 1.1.5
 **scikit-learn**  | >= 0.24.0
 **scipy**  | >= 1.3.1
-**sklearn** | >= 0.0
 
 The code has been tested with MacOS Catalina (version 10.15.2).
 
