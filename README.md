@@ -124,3 +124,5 @@ Library | Version
 
 The code has been tested with MacOS Catalina (version 10.15.2).
 
+## License
+MIT License. See [LICENSE](LICENSE) file for further information.
