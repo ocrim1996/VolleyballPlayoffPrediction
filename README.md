@@ -1,5 +1,5 @@
 # Machine learning methods for predictive analysis of team performance in sports
-[![MIT License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/mit-license.php)
+[![MIT License](https://img.shields.io/badge/License-MIT-blueviolet)](https://opensource.org/licenses/mit-license.php)
 [![Platform](https://img.shields.io/badge/MacOS-Catalina%2010.15.2-orange)](https://www.apple.com/it/newsroom/2019/10/macos-catalina-is-available-today/)
 [![Library](https://img.shields.io/badge/numpy-1.19.4-informational)](https://pypi.org/project/numpy/)
 [![Library](https://img.shields.io/badge/pandas-1.1.5-informational)](https://pypi.org/project/pandas/1.1.5/)
